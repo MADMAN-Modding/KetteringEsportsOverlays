@@ -12,7 +12,7 @@ This is a streaming overlay for esports teams with a nice gui app written in dar
 | Game Title                 | Overlay Status |
 | -------------------------- |  ------------  |
 | Super Smash Bros. Ultimate |    Finished    |
-| CSGO                       |    Finished    |
+| CSGO                       |  Not Started   |
 | Overwatch 2                |    Finished    |
 | Rocket League              |    Finished    |
 | Rainbow 6                  |  Not Started   |
