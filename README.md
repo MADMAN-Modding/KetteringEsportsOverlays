@@ -1,4 +1,4 @@
-# FalconsEsportsOverlays
+# KetteringEsportsOverlays
 
 This is a streaming overlay for esports teams with a nice gui app written in dart, you can it find in the <a href="https://github.com/MADMAN-Modding/FalconsEsportsOverlays/releases/latest" target="_blank">releases</a> page.
 
@@ -10,15 +10,12 @@ This is a streaming overlay for esports teams with a nice gui app written in dar
 <h1>Overlay Status</h1>
 
 | Game Title                 | Overlay Status |
-| -------------------------- | :------------: |
+| -------------------------- |  ------------  |
 | Super Smash Bros. Ultimate |    Finished    |
-| Mario Kart 8 Deluxe        |    Finished    |
-| Overwatch                  |    Finished    |
+| CSGO                       |    Finished    |
+| Overwatch 2                |    Finished    |
 | Rocket League              |    Finished    |
-| Splatoon                   |  Not Started   |
+| Rainbow 6                  |  Not Started   |
 | Valorant                   |  In Progress   |
-| Hearthstone                |  Not Started   |
 | League of Legends          |  Not Started   |
-| Chess                      |  Not Started   |
-| Madden NFL                 |  Not Started   |
-| NBA 2K                     |  Not Started   |
+| Lethal Company             |  Not Started   |
