@@ -1,9 +1,8 @@
 import 'dart:io';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
-import 'package:falcons_esports_overlays_controller/handlers/download_handler.dart';
-import 'package:falcons_esports_overlays_controller/handlers/json_handler.dart';
-import 'package:falcons_esports_overlays_controller/handlers/notification_handler.dart';
+import '../constants.dart' as constants;
+import '../handlers/download_handler.dart';
+import '../handlers/json_handler.dart';
+import '../handlers/notification_handler.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

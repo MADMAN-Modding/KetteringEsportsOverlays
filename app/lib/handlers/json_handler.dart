@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
+import '../constants.dart' as constants;
 import 'package:flutter/foundation.dart';
 import 'package:json_file/json_file.dart';
 import 'package:path_provider/path_provider.dart';
@@ -27,7 +26,7 @@ class JSONHandler {
 
       constants.Constants.executableDirectory = dir.path;
       constants.Constants.overlayDirectory =
-          "$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main";
+          "$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main";
 
       executableDirectory = constants.Constants.executableDirectory;
     }
@@ -75,7 +74,7 @@ class JSONHandler {
 // This is the same as the config but for the overlay
     try {
       overlayJSON = File(
-              '$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+              '$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
           .readAsJsonSync();
     } catch (e) {
       if (kDebugMode) {
@@ -90,7 +89,7 @@ class JSONHandler {
   void writeOverlay(String key, String data) {
     try {
       overlayJSON[key] = data;
-      File('$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+      File('$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
           .writeAsStringSync(jsonEncode(overlayJSON));
 
       // Tries to prevent the overlay being written to twice, idk if it really made improvements
@@ -190,10 +189,10 @@ class JSONHandler {
 
     try {
       // Initializes values
-      File('$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+      File('$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
           .writeAsStringSync('''
 {
-    "teamNameLeft": "DC Falcons Red",
+    "teamNameLeft": "Kettering Gold",
     "teamNameRight": "That other team",
     "winsLeft": "0",
     "winsRight": "0",
@@ -204,13 +203,13 @@ class JSONHandler {
     "scoreLeft": "0",
     "scoreRight": "0",
     "playerNamesLeft": "MADMAN-Modding",
-    "playerNamesRight": "Another player"
+    "playerNamesRight": "Check out my Github"
 }
 ''');
 
       // Loads the overlay
       overlayJSON = File(
-              '$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+              '$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
           .readAsJsonSync();
     } catch (e) {
       return;

@@ -1,5 +1,4 @@
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
+import '../constants.dart' as constants;
 import 'package:flutter/material.dart';
 
 // All this does is return the default text options, wahoo

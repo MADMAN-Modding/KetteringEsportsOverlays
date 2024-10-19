@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/common_widgets/color_selector.dart';
-import 'package:falcons_esports_overlays_controller/common_widgets/default_text.dart';
+import '../common_widgets/color_selector.dart';
+import '../common_widgets/default_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';

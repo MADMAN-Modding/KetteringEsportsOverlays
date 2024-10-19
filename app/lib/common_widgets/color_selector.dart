@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
+import '../constants.dart' as constants;
 import 'package:hexcolor/hexcolor.dart';
 
 class ColorSelector {

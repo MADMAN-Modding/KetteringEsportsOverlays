@@ -1,8 +1,7 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/common_widgets/default_text.dart';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
+import '../common_widgets/default_text.dart';
+import '../constants.dart' as constants;
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import '../handlers/json_handler.dart';

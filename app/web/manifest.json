@@ -1,6 +1,6 @@
 {
-    "name": "falcons_esports_overlays_controller",
-    "short_name": "falcons_esports_overlays_controller",
+    "name": "kettering_esports_overlays_controller",
+    "short_name": "kettering_esports_overlays_controller",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",

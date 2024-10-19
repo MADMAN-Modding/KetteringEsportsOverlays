@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.only(left: 8),
                       child: Text(
-                        'Welcome to the Falcons Esports Overlays Controller!',
+                        'Welcome to the Kettering Esports Overlays Controller!',
                         style: TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.bold,

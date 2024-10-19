@@ -1,7 +1,6 @@
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
-import 'package:falcons_esports_overlays_controller/pages/download.dart';
-import 'package:falcons_esports_overlays_controller/pages/http.dart';
+import 'constants.dart' as constants;
+import 'pages/download.dart';
+import 'pages/http.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
       create: (context) => MyAppState(),
       child: MaterialApp(
         // This may shock you, but it sets the title of the app
-        title: 'Falcons Esports Overlay Controller',
+        title: 'Kettering Esports Overlay Controller',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(

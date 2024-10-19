@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/handlers/http_handler.dart';
-import 'package:falcons_esports_overlays_controller/handlers/json_handler.dart';
+import 'handlers/http_handler.dart';
+import 'handlers/json_handler.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 // This file stores a bunch of variables needed across the project
@@ -16,7 +16,7 @@ class Constants {
       File(Platform.resolvedExecutable).parent.path;
 
   static String overlayDirectory =
-      "$executableDirectory${slashType}FalconsEsportsOverlays-main";
+      "$executableDirectory${slashType}KetteringEsportsOverlays-main";
 
   static String imagePath = "$executableDirectory${slashType}Esports-Logo.png";
 
