@@ -48,7 +48,7 @@ class JSONHandler {
                     '$executableDirectory${constants.Constants.slashType}config.json')
                 .writeAsString('''
 {
-    "appTheme": "#bf0f35",
+    "appTheme": "#0b223f",
     "ssbuChecked": true,
     "kartChecked": true,
     "owChecked": true,
@@ -130,7 +130,7 @@ class JSONHandler {
         try {
           return overlayJSON[key].toString().replaceAll(r"\", r"\\");
         } catch (e) {
-          return "Add overlay to the config";
+          return "Please Download Overlays";
         }
       }
     }

@@ -28,16 +28,23 @@ class _HTTPPage extends State<HTTPPage> {
                     onPressed: () async {
                       constants.Constants.httpHandler.startServer(context);
                     },
-                    child: const Text("Start Web Server")),
+                    child: const Text(
+                      "Start Web Server",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    )),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ElevatedButton(
-                    onPressed: () {
-                      // Stops the server
-                      constants.Constants.httpHandler.stopServer(context);
-                    },
-                    child: const Text("Stop Web Server")),
+                  onPressed: () {
+                    // Stops the server
+                    constants.Constants.httpHandler.stopServer(context);
+                  },
+                  child: const Text("Stop Web Server",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                ),
               )
             ],
           )
