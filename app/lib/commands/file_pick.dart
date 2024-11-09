@@ -13,7 +13,7 @@ class FilePick {
     // If they don't respond it will return ""
     try {
       // Since there's a bug on Linux that makes the file picker not work on linux this runs a separate one for Linux
-      if (Platform.isWindows) {
+      if (!Platform.isAndroid) {
         FilePickerResult? result = await FilePicker.platform
             .pickFiles(type: FileType.image, allowMultiple: false);
         return result!.paths.toString().replaceAll("[", "").replaceAll("]", "");
