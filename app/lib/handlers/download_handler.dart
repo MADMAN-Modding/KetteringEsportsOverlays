@@ -3,7 +3,7 @@ import 'package:archive/archive_io.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:permission_handler/permission_handler.dart';
-import 'package:falcons_esports_overlays_controller/constants.dart'
+import 'package:kettering_esports_overlays_controller/constants.dart'
     as constants;
 
 class DownloadHandler {
@@ -14,7 +14,7 @@ class DownloadHandler {
     if (!Platform.isAndroid || await Permission.storage.request().isGranted) {
       await http
           .get(Uri.https('codeload.github.com',
-              '/MADMAN-Modding/FalconsEsportsOverlays/zip/refs/heads/main'))
+              '/MADMAN-Modding/KetteringEsportsOverlays/zip/refs/heads/main'))
           .then((response) {
         File("$path${slashType}overlay.zip")
             .writeAsBytesSync(response.bodyBytes);
@@ -28,7 +28,7 @@ class DownloadHandler {
 
       // Try to delete the directory if its already there
       try {
-        Directory("$path${slashType}FalconsEsportsOverlays")
+        Directory("$path${slashType}KetteringEsportsOverlays")
             .deleteSync(recursive: true);
       } catch (e) {}
 
@@ -51,7 +51,7 @@ class DownloadHandler {
 
       // Overwrites the downloaded logo
       FileImage(File(
-              "$path${slashType}FalconsEsportsOverlays-main${slashType}images${slashType}Esports-Logo.png"))
+              "$path${slashType}KetteringEsportsOverlays-main${slashType}images${slashType}Esports-Logo.png"))
           .file
           .writeAsBytesSync(FileImage(File("$path${slashType}Esports-Logo.png"))
               .file

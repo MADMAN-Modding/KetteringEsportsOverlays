@@ -1,9 +1,9 @@
-import 'package:falcons_esports_overlays_controller/handlers/notification_handler.dart';
+import 'package:kettering_esports_overlays_controller/handlers/notification_handler.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shelf/shelf_io.dart' as shelf_io;
 import 'package:shelf_static/shelf_static.dart';
-import 'package:falcons_esports_overlays_controller/constants.dart'
+import 'package:kettering_esports_overlays_controller/constants.dart'
     as constants;
 
 class HTTPHandler {

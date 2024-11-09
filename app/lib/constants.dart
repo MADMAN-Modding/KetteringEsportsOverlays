@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/handlers/http_handler.dart';
-import 'package:falcons_esports_overlays_controller/handlers/json_handler.dart';
+import 'package:kettering_esports_overlays_controller/handlers/http_handler.dart';
+import 'package:kettering_esports_overlays_controller/handlers/json_handler.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 // This file stores a bunch of variables needed across the project
@@ -12,14 +12,15 @@ class Constants {
 
   static HTTPHandler httpHandler = HTTPHandler();
 
-  static String executableDirectory = !Platform.isMacOS ?
-      File(Platform.resolvedExecutable).parent.path : File(Platform.resolvedExecutable).parent.parent.parent.parent.path;
+  static String executableDirectory = !Platform.isMacOS
+      ? File(Platform.resolvedExecutable).parent.path
+      : File(Platform.resolvedExecutable).parent.parent.parent.parent.path;
 
   static String overlayDirectory =
-      "$executableDirectory${slashType}FalconsEsportsOverlays-main";
+      "$executableDirectory${slashType}KetteringEsportsOverlays-main";
 
   static String overlayJSONPath =
-      '$executableDirectory${slashType}FalconsEsportsOverlays-main${slashType}json${slashType}overlay.json';
+      '$executableDirectory${slashType}KetteringEsportsOverlays-main${slashType}json${slashType}overlay.json';
 
   static String imagePath = "$executableDirectory${slashType}Esports-Logo.png";
 

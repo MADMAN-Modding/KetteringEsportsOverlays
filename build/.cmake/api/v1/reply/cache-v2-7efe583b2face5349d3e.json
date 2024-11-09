@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -423,7 +423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -483,7 +483,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -495,7 +495,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -2423,7 +2423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux"
 		},
 		{
 			"name" : "file_selector_linux_IS_TOP_LEVEL",
@@ -2447,7 +2447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux"
 		},
 		{
 			"name" : "pkgcfg_lib_GIO_gio-2.0",
@@ -2743,7 +2743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build"
 		},
 		{
 			"name" : "runner_IS_TOP_LEVEL",
@@ -2767,7 +2767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux"
 		},
 		{
 			"name" : "screen_retriever_BINARY_DIR",
@@ -2779,7 +2779,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever"
 		},
 		{
 			"name" : "screen_retriever_IS_TOP_LEVEL",
@@ -2803,7 +2803,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux"
 		},
 		{
 			"name" : "window_manager_BINARY_DIR",
@@ -2815,7 +2815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager"
 		},
 		{
 			"name" : "window_manager_IS_TOP_LEVEL",
@@ -2839,7 +2839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux"
+			"value" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux"
 		}
 	],
 	"kind" : "cache",

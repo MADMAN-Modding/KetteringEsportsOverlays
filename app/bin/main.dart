@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Falcons Esports Overlays Controller',
+      title: 'Kettering Esports Overlays Controller',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             seedColor: const Color.fromARGB(255, 139, 27, 27)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Falcons Esports Overlay Controller'),
+      home: const MyHomePage(title: 'Kettering Esports Overlay Controller'),
     );
   }
 }

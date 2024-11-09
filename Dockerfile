@@ -12,7 +12,7 @@ RUN apk --update add \
     && rm -r /var/www/localhost/htdocs/*
 
 # Clones the repos
-RUN git clone https://github.com/HeinzEric/FalconsEsportsOverlays.git /var/www/localhost/htdocs/
+RUN git clone https://github.com/MADMAN-Modding/KetteringEsportsOverlays.git /var/www/localhost/htdocs/
 
 # sets the directory permissions for the files
 RUN chmod 777 -R /var/www/localhost/htdocs/*

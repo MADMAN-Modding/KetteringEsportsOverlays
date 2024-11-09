@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
+import '../constants.dart' as constants;
 import 'package:flutter/foundation.dart';
 import 'package:json_file/json_file.dart';
 import 'package:path_provider/path_provider.dart';
@@ -27,7 +26,7 @@ class JSONHandler {
 
       constants.Constants.executableDirectory = dir.path;
       constants.Constants.overlayDirectory =
-          "$executableDirectory${constants.Constants.slashType}FalconsEsportsOverlays-main";
+          "$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main";
 
       executableDirectory = constants.Constants.executableDirectory;
     }
@@ -49,7 +48,7 @@ class JSONHandler {
                     '$executableDirectory${constants.Constants.slashType}config.json')
                 .writeAsString('''
 {
-    "appTheme": "#bf0f35",
+    "appTheme": "#0B223F",
     "ssbuChecked": true,
     "kartChecked": true,
     "owChecked": true,
@@ -74,7 +73,9 @@ class JSONHandler {
 
 // This is the same as the config but for the overlay
     try {
-      overlayJSON = File(constants.Constants.overlayJSONPath).readAsJsonSync();
+      overlayJSON = File(
+              '$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+          .readAsJsonSync();
     } catch (e) {
       if (kDebugMode) {
         print(e);
@@ -88,7 +89,7 @@ class JSONHandler {
   void writeOverlay(String key, String data) {
     try {
       overlayJSON[key] = data;
-      File(constants.Constants.overlayJSONPath)
+      File('$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
           .writeAsStringSync(jsonEncode(overlayJSON));
 
       // Tries to prevent the overlay being written to twice, idk if it really made improvements
@@ -117,13 +118,19 @@ class JSONHandler {
       if (kDebugMode) {
         print(e);
       }
+
+      // Another check to make the overlay
+      if (readConfig("path") != ".") {
+        makeOverlay();
+      }
+
       try {
         return overlayJSON[key].toString().replaceAll(r"\", r"\\");
       } catch (e) {
         try {
           return overlayJSON[key].toString().replaceAll(r"\", r"\\");
         } catch (e) {
-          return "Download Overlays Please";
+          return "Please Download Overlays";
         }
       }
     }
@@ -147,7 +154,7 @@ class JSONHandler {
       return configJSON[key].toString().replaceAll(r"\", r"\\");
     } catch (e) {
       if (key == "appTheme") {
-        return "#BF0F35";
+        return "#0B223F";
       } else if (key.toLowerCase().contains("path")) {
         return ".";
       } else if (key.toLowerCase().contains("checked")) {
@@ -182,9 +189,10 @@ class JSONHandler {
 
     try {
       // Initializes values
-      File(constants.Constants.overlayJSONPath).writeAsStringSync('''
+      File('$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+          .writeAsStringSync('''
 {
-    "teamNameLeft": "DC Falcons Red",
+    "teamNameLeft": "Kettering Gold",
     "teamNameRight": "That other team",
     "winsLeft": "0",
     "winsRight": "0",
@@ -200,7 +208,9 @@ class JSONHandler {
 ''');
 
       // Loads the overlay
-      overlayJSON = File(constants.Constants.overlayJSONPath).readAsJsonSync();
+      overlayJSON = File(
+              '$executableDirectory${constants.Constants.slashType}KetteringEsportsOverlays-main${constants.Constants.slashType}json${constants.Constants.slashType}overlay.json')
+          .readAsJsonSync();
     } catch (e) {
       return;
     }

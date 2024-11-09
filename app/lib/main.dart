@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/constants.dart'
+import 'package:kettering_esports_overlays_controller/constants.dart'
     as constants;
-import 'package:falcons_esports_overlays_controller/pages/download.dart';
-import 'package:falcons_esports_overlays_controller/pages/http.dart';
+import 'package:kettering_esports_overlays_controller/pages/download.dart';
+import 'package:kettering_esports_overlays_controller/pages/http.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:provider/provider.dart';
@@ -18,8 +18,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await windowManager.ensureInitialized();
 
-
-  if(Platform.isMacOS) {
+  if (Platform.isMacOS) {
     WindowOptions windowOptions = const WindowOptions(
       size: Size(1100, 750),
       center: true,
@@ -29,10 +28,10 @@ void main() async {
       windowButtonVisibility: true,
     );
 
-  windowManager.waitUntilReadyToShow(windowOptions, () async {
-    await windowManager.show();
-    await windowManager.focus();
-  });
+    windowManager.waitUntilReadyToShow(windowOptions, () async {
+      await windowManager.show();
+      await windowManager.focus();
+    });
   }
 
   runApp(const MyApp());
@@ -47,7 +46,7 @@ class MyApp extends StatelessWidget {
       create: (context) => MyAppState(),
       child: MaterialApp(
         // This may shock you, but it sets the title of the app
-        title: 'Falcons Esports Overlay Controller',
+        title: 'Kettering Esports Overlay Controller',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(

@@ -1,6 +1,6 @@
-# FalconsEsportsOverlays
+# KetteringEsportsOverlays
 
-This is a streaming overlay for esports teams with a nice gui app written in dart, you can it find in the <a href="https://github.com/MADMAN-Modding/FalconsEsportsOverlays/releases/latest" target="_blank">releases</a> page.
+This is a streaming overlay for esports teams with a nice gui app written in dart, you can it find in the <a href="https://github.com/MADMAN-Modding/KetteringEsportsOverlays/releases/latest" target="_blank">releases</a> page.
 
 <h1>Setup</h1>
 

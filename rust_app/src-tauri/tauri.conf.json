@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "falcons_esports_overlays_controller",
+  "productName": "kettering_esports_overlays_controller",
   "version": "0.1.0",
-  "identifier": "com.madman_modding.falcons_esports_overlays_controller",
+  "identifier": "com.madman_modding.kettering_esports_overlays_controller",
   "build": {
     "frontendDist": "../src"
   },
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Falcons Esports Overlays Controller",
+        "title": "Kettering Esports Overlays Controller",
         "width": 800,
         "height": 600
       }

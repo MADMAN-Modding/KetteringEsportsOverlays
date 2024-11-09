@@ -1,8 +1,8 @@
-# Install script for directory: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux
+# Install script for directory: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

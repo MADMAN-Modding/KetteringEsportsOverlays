@@ -1,8 +1,8 @@
-# Install script for directory: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux
+# Install script for directory: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,134 +44,134 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/")
+  file(REMOVE_RECURSE "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller")
+  if(EXISTS "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller"
+         FILE "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle" TYPE EXECUTABLE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/intermediates_do_not_run/falcons_esports_overlays_controller")
-  if(EXISTS "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle" TYPE EXECUTABLE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/intermediates_do_not_run/kettering_esports_overlays_controller")
+  if(EXISTS "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller"
-         OLD_RPATH "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller"
+         OLD_RPATH "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/falcons_esports_overlays_controller")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/kettering_esports_overlays_controller")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data/icudtl.dat")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/icudtl.dat")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib/libflutter_linux_gtk.so")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib/libfile_selector_linux_plugin.so")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib/libfile_selector_linux_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux/libfile_selector_linux_plugin.so")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux/libfile_selector_linux_plugin.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib/libscreen_retriever_plugin.so")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib/libscreen_retriever_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever/libscreen_retriever_plugin.so")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever/libscreen_retriever_plugin.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib/libwindow_manager_plugin.so")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib/libwindow_manager_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager/libwindow_manager_plugin.so")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib" TYPE FILE FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager/libwindow_manager_plugin.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib/")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib" TYPE DIRECTORY FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/build/native_assets/linux/")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib" TYPE DIRECTORY FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/build/native_assets/linux/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data/flutter_assets")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data/flutter_assets")
+   "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data" TYPE DIRECTORY FILES "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/build//flutter_assets")
+  file(INSTALL DESTINATION "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data" TYPE DIRECTORY FILES "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter/cmake_install.cmake")
-  include("/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux/cmake_install.cmake")
-  include("/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever/cmake_install.cmake")
-  include("/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager/cmake_install.cmake")
+  include("/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter/cmake_install.cmake")
+  include("/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux/cmake_install.cmake")
+  include("/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever/cmake_install.cmake")
+  include("/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager/cmake_install.cmake")
 
 endif()
 
@@ -190,6 +190,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

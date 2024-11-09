@@ -39,63 +39,63 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/
+cmake_ninja_workdir = /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target falcons_esports_overlays_controller
+# Object build statements for EXECUTABLE target kettering_esports_overlays_controller
 
 
 #############################################
-# Order-only phony target for falcons_esports_overlays_controller
+# Order-only phony target for kettering_esports_overlays_controller
 
-build cmake_object_order_depends_target_falcons_esports_overlays_controller: phony || cmake_object_order_depends_target_file_selector_linux_plugin cmake_object_order_depends_target_screen_retriever_plugin cmake_object_order_depends_target_window_manager_plugin flutter/flutter_assemble
+build cmake_object_order_depends_target_kettering_esports_overlays_controller: phony || cmake_object_order_depends_target_file_selector_linux_plugin cmake_object_order_depends_target_screen_retriever_plugin cmake_object_order_depends_target_window_manager_plugin flutter/flutter_assemble
 
-build CMakeFiles/falcons_esports_overlays_controller.dir/main.cc.o: CXX_COMPILER__falcons_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/main.cc || cmake_object_order_depends_target_falcons_esports_overlays_controller
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\"
-  DEP_FILE = CMakeFiles/falcons_esports_overlays_controller.dir/main.cc.o.d
+build CMakeFiles/kettering_esports_overlays_controller.dir/main.cc.o: CXX_COMPILER__kettering_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/main.cc || cmake_object_order_depends_target_kettering_esports_overlays_controller
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\"
+  DEP_FILE = CMakeFiles/kettering_esports_overlays_controller.dir/main.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
-  OBJECT_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
-  OBJECT_FILE_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  OBJECT_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
+  OBJECT_FILE_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
 
-build CMakeFiles/falcons_esports_overlays_controller.dir/my_application.cc.o: CXX_COMPILER__falcons_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/my_application.cc || cmake_object_order_depends_target_falcons_esports_overlays_controller
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\"
-  DEP_FILE = CMakeFiles/falcons_esports_overlays_controller.dir/my_application.cc.o.d
+build CMakeFiles/kettering_esports_overlays_controller.dir/my_application.cc.o: CXX_COMPILER__kettering_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/my_application.cc || cmake_object_order_depends_target_kettering_esports_overlays_controller
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\"
+  DEP_FILE = CMakeFiles/kettering_esports_overlays_controller.dir/my_application.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
-  OBJECT_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
-  OBJECT_FILE_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  OBJECT_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
+  OBJECT_FILE_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
 
-build CMakeFiles/falcons_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__falcons_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_falcons_esports_overlays_controller
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\"
-  DEP_FILE = CMakeFiles/falcons_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o.d
+build CMakeFiles/kettering_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__kettering_esports_overlays_controller_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_kettering_esports_overlays_controller
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\"
+  DEP_FILE = CMakeFiles/kettering_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
-  OBJECT_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
-  OBJECT_FILE_DIR = CMakeFiles/falcons_esports_overlays_controller.dir/flutter
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/include -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  OBJECT_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
+  OBJECT_FILE_DIR = CMakeFiles/kettering_esports_overlays_controller.dir/flutter
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target falcons_esports_overlays_controller
+# Link build statements for EXECUTABLE target kettering_esports_overlays_controller
 
 
 #############################################
-# Link the executable intermediates_do_not_run/falcons_esports_overlays_controller
+# Link the executable intermediates_do_not_run/kettering_esports_overlays_controller
 
-build intermediates_do_not_run/falcons_esports_overlays_controller: CXX_EXECUTABLE_LINKER__falcons_esports_overlays_controller_Debug CMakeFiles/falcons_esports_overlays_controller.dir/main.cc.o CMakeFiles/falcons_esports_overlays_controller.dir/my_application.cc.o CMakeFiles/falcons_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o | plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so
+build intermediates_do_not_run/kettering_esports_overlays_controller: CXX_EXECUTABLE_LINKER__kettering_esports_overlays_controller_Debug CMakeFiles/kettering_esports_overlays_controller.dir/main.cc.o CMakeFiles/kettering_esports_overlays_controller.dir/my_application.cc.o CMakeFiles/kettering_esports_overlays_controller.dir/flutter/generated_plugin_registrant.cc.o | plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble plugins/file_selector_linux/libfile_selector_linux_plugin.so plugins/screen_retriever/libscreen_retriever_plugin.so plugins/window_manager/libwindow_manager_plugin.so
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager:/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral:  plugins/file_selector_linux/libfile_selector_linux_plugin.so  plugins/screen_retriever/libscreen_retriever_plugin.so  plugins/window_manager/libwindow_manager_plugin.so  /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
-  OBJECT_DIR = CMakeFiles/falcons_esports_overlays_controller.dir
+  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager:/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral:  plugins/file_selector_linux/libfile_selector_linux_plugin.so  plugins/screen_retriever/libscreen_retriever_plugin.so  plugins/window_manager/libwindow_manager_plugin.so  /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  OBJECT_DIR = CMakeFiles/kettering_esports_overlays_controller.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = intermediates_do_not_run/falcons_esports_overlays_controller
-  TARGET_PDB = falcons_esports_overlays_controller.dbg
+  TARGET_FILE = intermediates_do_not_run/kettering_esports_overlays_controller
+  TARGET_PDB = kettering_esports_overlays_controller.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -125,7 +125,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -137,7 +137,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -149,7 +149,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -158,21 +158,21 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/CMakeLists.txt
+# /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/CMakeLists.txt
 # =============================================================================
 
 
 #############################################
 # Utility command for flutter_assemble
 
-build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
+build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
 
 
 #############################################
 # Utility command for edit_cache
 
 build flutter/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -184,7 +184,7 @@ build flutter/edit_cache: phony flutter/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build flutter/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -202,7 +202,7 @@ build flutter/list_install_components: phony
 # Utility command for install
 
 build flutter/CMakeFiles/install.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -214,7 +214,7 @@ build flutter/install: phony flutter/CMakeFiles/install.util
 # Utility command for install/local
 
 build flutter/CMakeFiles/install/local.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -226,7 +226,7 @@ build flutter/install/local: phony flutter/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build flutter/CMakeFiles/install/strip.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -237,20 +237,20 @@ build flutter/install/strip: phony flutter/CMakeFiles/install/strip.util
 #############################################
 # Phony custom command for flutter/CMakeFiles/flutter_assemble
 
-build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeFiles/flutter_assemble: phony /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
+build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeFiles/flutter_assemble: phony /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
 
 
 #############################################
-# Custom command for /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so
+# Custom command for /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so
 
-build /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/home/mad/Documents/Apps/flutter PROJECT_DIR=/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/.dart_tool/package_config.json FLUTTER_TARGET=lib/main.dart /home/mad/Documents/Apps/flutter/packages/flutter_tools/bin/tool_backend.sh Debug
-  DESC = Generating /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
+build /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/home/mad/Documents/Apps/flutter PROJECT_DIR=/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/.dart_tool/package_config.json FLUTTER_TARGET=lib/main.dart /home/mad/Documents/Apps/flutter/packages/flutter_tools/bin/tool_backend.sh Debug
+  DESC = Generating /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
   restat = 1
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugins.cmake
+# /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugins.cmake
 # =============================================================================
 
 # =============================================================================
@@ -262,19 +262,19 @@ build /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutt
 
 build cmake_object_order_depends_target_file_selector_linux_plugin: phony || flutter/flutter_assemble
 
-build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/file_selector_plugin.cc || cmake_object_order_depends_target_file_selector_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
+build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/file_selector_plugin.cc || cmake_object_order_depends_target_file_selector_linux_plugin
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
   DEP_FILE = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o.d
   FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
   OBJECT_FILE_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
 
-build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/messages.g.cc || cmake_object_order_depends_target_file_selector_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
+build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__file_selector_linux_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/messages.g.cc || cmake_object_order_depends_target_file_selector_linux_plugin
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dfile_selector_linux_plugin_EXPORTS
   DEP_FILE = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o.d
   FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
   OBJECT_FILE_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
 
@@ -286,9 +286,9 @@ build plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/mess
 #############################################
 # Link the shared library plugins/file_selector_linux/libfile_selector_linux_plugin.so
 
-build plugins/file_selector_linux/libfile_selector_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__file_selector_linux_plugin_Debug plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o | /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
+build plugins/file_selector_linux/libfile_selector_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__file_selector_linux_plugin_Debug plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/file_selector_plugin.cc.o plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir/messages.g.cc.o | /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
   LANGUAGE_COMPILE_FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
   OBJECT_DIR = plugins/file_selector_linux/CMakeFiles/file_selector_linux_plugin.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -302,7 +302,7 @@ build plugins/file_selector_linux/libfile_selector_linux_plugin.so: CXX_SHARED_L
 # Utility command for edit_cache
 
 build plugins/file_selector_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -314,7 +314,7 @@ build plugins/file_selector_linux/edit_cache: phony plugins/file_selector_linux/
 # Utility command for rebuild_cache
 
 build plugins/file_selector_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -332,7 +332,7 @@ build plugins/file_selector_linux/list_install_components: phony
 # Utility command for install
 
 build plugins/file_selector_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/file_selector_linux/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -344,7 +344,7 @@ build plugins/file_selector_linux/install: phony plugins/file_selector_linux/CMa
 # Utility command for install/local
 
 build plugins/file_selector_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/file_selector_linux/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -356,7 +356,7 @@ build plugins/file_selector_linux/install/local: phony plugins/file_selector_lin
 # Utility command for install/strip
 
 build plugins/file_selector_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/file_selector_linux/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -365,7 +365,7 @@ build plugins/file_selector_linux/install/strip: phony plugins/file_selector_lin
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugins.cmake
+# /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugins.cmake
 # =============================================================================
 
 # =============================================================================
@@ -377,11 +377,11 @@ build plugins/file_selector_linux/install/strip: phony plugins/file_selector_lin
 
 build cmake_object_order_depends_target_screen_retriever_plugin: phony || flutter/flutter_assemble
 
-build plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_retriever_plugin.cc.o: CXX_COMPILER__screen_retriever_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/screen_retriever_plugin.cc || cmake_object_order_depends_target_screen_retriever_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dscreen_retriever_plugin_EXPORTS
+build plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_retriever_plugin.cc.o: CXX_COMPILER__screen_retriever_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/screen_retriever_plugin.cc || cmake_object_order_depends_target_screen_retriever_plugin
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dscreen_retriever_plugin_EXPORTS
   DEP_FILE = plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_retriever_plugin.cc.o.d
   FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir
   OBJECT_FILE_DIR = plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir
 
@@ -393,9 +393,9 @@ build plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_ret
 #############################################
 # Link the shared library plugins/screen_retriever/libscreen_retriever_plugin.so
 
-build plugins/screen_retriever/libscreen_retriever_plugin.so: CXX_SHARED_LIBRARY_LINKER__screen_retriever_plugin_Debug plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_retriever_plugin.cc.o | /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
+build plugins/screen_retriever/libscreen_retriever_plugin.so: CXX_SHARED_LIBRARY_LINKER__screen_retriever_plugin_Debug plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir/screen_retriever_plugin.cc.o | /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
   LANGUAGE_COMPILE_FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
   OBJECT_DIR = plugins/screen_retriever/CMakeFiles/screen_retriever_plugin.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -409,7 +409,7 @@ build plugins/screen_retriever/libscreen_retriever_plugin.so: CXX_SHARED_LIBRARY
 # Utility command for edit_cache
 
 build plugins/screen_retriever/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -421,7 +421,7 @@ build plugins/screen_retriever/edit_cache: phony plugins/screen_retriever/CMakeF
 # Utility command for rebuild_cache
 
 build plugins/screen_retriever/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -439,7 +439,7 @@ build plugins/screen_retriever/list_install_components: phony
 # Utility command for install
 
 build plugins/screen_retriever/CMakeFiles/install.util: CUSTOM_COMMAND plugins/screen_retriever/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -451,7 +451,7 @@ build plugins/screen_retriever/install: phony plugins/screen_retriever/CMakeFile
 # Utility command for install/local
 
 build plugins/screen_retriever/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/screen_retriever/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -463,7 +463,7 @@ build plugins/screen_retriever/install/local: phony plugins/screen_retriever/CMa
 # Utility command for install/strip
 
 build plugins/screen_retriever/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/screen_retriever/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -472,7 +472,7 @@ build plugins/screen_retriever/install/strip: phony plugins/screen_retriever/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugins.cmake
+# /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugins.cmake
 # =============================================================================
 
 # =============================================================================
@@ -484,11 +484,11 @@ build plugins/screen_retriever/install/strip: phony plugins/screen_retriever/CMa
 
 build cmake_object_order_depends_target_window_manager_plugin: phony || flutter/flutter_assemble
 
-build plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager_plugin.cc.o: CXX_COMPILER__window_manager_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/window_manager_plugin.cc || cmake_object_order_depends_target_window_manager_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.falcons_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dwindow_manager_plugin_EXPORTS
+build plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager_plugin.cc.o: CXX_COMPILER__window_manager_plugin_unscanned_Debug /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/window_manager_plugin.cc || cmake_object_order_depends_target_window_manager_plugin
+  DEFINES = -DAPPLICATION_ID=\"com.madman_modding.kettering_esports_overlays_controller\" -DFLUTTER_PLUGIN_IMPL -Dwindow_manager_plugin_EXPORTS
   DEP_FILE = plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager_plugin.cc.o.d
   FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
-  INCLUDES = -I/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = plugins/window_manager/CMakeFiles/window_manager_plugin.dir
   OBJECT_FILE_DIR = plugins/window_manager/CMakeFiles/window_manager_plugin.dir
 
@@ -500,9 +500,9 @@ build plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager
 #############################################
 # Link the shared library plugins/window_manager/libwindow_manager_plugin.so
 
-build plugins/window_manager/libwindow_manager_plugin.so: CXX_SHARED_LIBRARY_LINKER__window_manager_plugin_Debug plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager_plugin.cc.o | /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
+build plugins/window_manager/libwindow_manager_plugin.so: CXX_SHARED_LIBRARY_LINKER__window_manager_plugin_Debug plugins/window_manager/CMakeFiles/window_manager_plugin.dir/window_manager_plugin.cc.o | /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
   LANGUAGE_COMPILE_FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  LINK_LIBRARIES = -Wl,-rpath,/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral  /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
   OBJECT_DIR = plugins/window_manager/CMakeFiles/window_manager_plugin.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -516,7 +516,7 @@ build plugins/window_manager/libwindow_manager_plugin.so: CXX_SHARED_LIBRARY_LIN
 # Utility command for edit_cache
 
 build plugins/window_manager/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager && /usr/bin/ccmake -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -528,7 +528,7 @@ build plugins/window_manager/edit_cache: phony plugins/window_manager/CMakeFiles
 # Utility command for rebuild_cache
 
 build plugins/window_manager/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake --regenerate-during-build -S/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux -B/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -546,7 +546,7 @@ build plugins/window_manager/list_install_components: phony
 # Utility command for install
 
 build plugins/window_manager/CMakeFiles/install.util: CUSTOM_COMMAND plugins/window_manager/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -558,7 +558,7 @@ build plugins/window_manager/install: phony plugins/window_manager/CMakeFiles/in
 # Utility command for install/local
 
 build plugins/window_manager/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/window_manager/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -570,7 +570,7 @@ build plugins/window_manager/install/local: phony plugins/window_manager/CMakeFi
 # Utility command for install/strip
 
 build plugins/window_manager/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/window_manager/all
-  COMMAND = cd /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -580,7 +580,7 @@ build plugins/window_manager/install/strip: phony plugins/window_manager/CMakeFi
 # =============================================================================
 # Target aliases.
 
-build falcons_esports_overlays_controller: phony intermediates_do_not_run/falcons_esports_overlays_controller
+build kettering_esports_overlays_controller: phony intermediates_do_not_run/kettering_esports_overlays_controller
 
 build file_selector_linux_plugin: phony plugins/file_selector_linux/libfile_selector_linux_plugin.so
 
@@ -602,35 +602,35 @@ build window_manager_plugin: phony plugins/window_manager/libwindow_manager_plug
 # =============================================================================
 
 #############################################
-# Folder: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build
+# Folder: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build
 
-build all: phony intermediates_do_not_run/falcons_esports_overlays_controller flutter/all plugins/file_selector_linux/all plugins/screen_retriever/all plugins/window_manager/all
+build all: phony intermediates_do_not_run/kettering_esports_overlays_controller flutter/all plugins/file_selector_linux/all plugins/screen_retriever/all plugins/window_manager/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/flutter
+# Folder: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/flutter
 
 build flutter/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux
+# Folder: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux
 
 build plugins/file_selector_linux/all: phony plugins/file_selector_linux/libfile_selector_linux_plugin.so
 
 # =============================================================================
 
 #############################################
-# Folder: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever
+# Folder: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever
 
 build plugins/screen_retriever/all: phony plugins/screen_retriever/libscreen_retriever_plugin.so
 
 # =============================================================================
 
 #############################################
-# Folder: /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager
+# Folder: /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager
 
 build plugins/window_manager/all: phony plugins/window_manager/libwindow_manager_plugin.so
 
@@ -641,14 +641,14 @@ build plugins/window_manager/all: phony plugins/window_manager/libwindow_manager
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/generated_config.cmake /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/generated_config.cmake /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/ephemeral/generated_config.cmake /home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/file_selector_linux/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/screen_retriever/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/.plugin_symlinks/window_manager/linux/CMakeLists.txt /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/ephemeral/generated_config.cmake /home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

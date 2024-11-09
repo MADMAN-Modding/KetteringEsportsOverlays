@@ -35,7 +35,7 @@
     <key>com.apple.security.files.downloads.read-write</key>
     <true/>
     <key>CFBundleDisplayName</key>
-    <string>Falcons Esports Overlays Controller</string>
+    <string>Kettering Esports Overlays Controller</string>
     <key>com.apple.security.app-sandbox</key>
     <false/>
 </dict>

@@ -150,9 +150,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "falcons_esports_overlays_controller::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-falcons_esports_overlays_controller-Debug-8e8536e1c6f6fc86bbb6.json",
-					"name" : "falcons_esports_overlays_controller",
+					"id" : "kettering_esports_overlays_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kettering_esports_overlays_controller-Debug-8e8536e1c6f6fc86bbb6.json",
+					"name" : "kettering_esports_overlays_controller",
 					"projectIndex" : 0
 				},
 				{
@@ -189,8 +189,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build",
-		"source" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux"
+		"build" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build",
+		"source" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux"
 	},
 	"version" : 
 	{

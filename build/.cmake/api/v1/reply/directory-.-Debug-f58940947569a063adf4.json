@@ -86,19 +86,19 @@
 		{
 			"backtrace" : 2,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle",
 			"paths" : 
 			[
-				"intermediates_do_not_run/falcons_esports_overlays_controller"
+				"intermediates_do_not_run/kettering_esports_overlays_controller"
 			],
-			"targetId" : "falcons_esports_overlays_controller::@6890427a1f51a3e7e1df",
+			"targetId" : "kettering_esports_overlays_controller::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
 			"type" : "target"
 		},
 		{
 			"backtrace" : 3,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data",
 			"paths" : 
 			[
 				"flutter/ephemeral/icudtl.dat"
@@ -108,7 +108,7 @@
 		{
 			"backtrace" : 4,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib",
 			"paths" : 
 			[
 				"flutter/ephemeral/libflutter_linux_gtk.so"
@@ -118,41 +118,41 @@
 		{
 			"backtrace" : 5,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib",
 			"paths" : 
 			[
-				"/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/file_selector_linux/libfile_selector_linux_plugin.so"
+				"/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/file_selector_linux/libfile_selector_linux_plugin.so"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 6,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib",
 			"paths" : 
 			[
-				"/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/screen_retriever/libscreen_retriever_plugin.so"
+				"/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/screen_retriever/libscreen_retriever_plugin.so"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 7,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib",
 			"paths" : 
 			[
-				"/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/plugins/window_manager/libwindow_manager_plugin.so"
+				"/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/plugins/window_manager/libwindow_manager_plugin.so"
 			],
 			"type" : "file"
 		},
 		{
 			"backtrace" : 8,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/lib",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/lib",
 			"paths" : 
 			[
 				{
-					"from" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/build/native_assets/linux",
+					"from" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/build/native_assets/linux",
 					"to" : "."
 				}
 			],
@@ -166,10 +166,10 @@
 		{
 			"backtrace" : 10,
 			"component" : "Runtime",
-			"destination" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/bundle/data",
+			"destination" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/bundle/data",
 			"paths" : 
 			[
-				"/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/build//flutter_assets"
+				"/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/build//flutter_assets"
 			],
 			"type" : "directory"
 		}

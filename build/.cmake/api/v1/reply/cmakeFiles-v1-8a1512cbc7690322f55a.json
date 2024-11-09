@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/CMakeFiles/3.30.5/CMakeSystem.cmake"
+			"path" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+			"path" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -139,8 +139,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/build",
-		"source" : "/home/mad/Documents/Coding/Projects/FalconsEsportsOverlays/app/linux"
+		"build" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/build",
+		"source" : "/home/mad/Documents/Coding/Projects/KetteringEsportsOverlays/app/linux"
 	},
 	"version" : 
 	{

@@ -1,9 +1,8 @@
 import 'dart:io';
-import 'package:falcons_esports_overlays_controller/common_widgets/default_text.dart';
-import 'package:falcons_esports_overlays_controller/constants.dart'
-    as constants;
-import 'package:falcons_esports_overlays_controller/handlers/download_handler.dart';
-import 'package:falcons_esports_overlays_controller/handlers/notification_handler.dart';
+import '../common_widgets/default_text.dart';
+import '../constants.dart' as constants;
+import '../handlers/download_handler.dart';
+import '../handlers/notification_handler.dart';
 import 'package:flutter/material.dart';
 
 class DownloadPage extends StatefulWidget {
@@ -65,7 +64,8 @@ class _DownloadPage extends State<DownloadPage> {
 
         await DownloadHandler.download();
 
-        NotificationHandler.notification(context, "Overlays ${action}ed");
+        NotificationHandler.notification(
+            context, "Overlays $action${action.endsWith("e") ? "d" : "ed"}");
       },
       child: DefaultText.text("$action Overlays",
           color: constants.Constants.appTheme),

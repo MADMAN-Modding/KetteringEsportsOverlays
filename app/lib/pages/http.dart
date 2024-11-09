@@ -1,4 +1,4 @@
-import 'package:falcons_esports_overlays_controller/common_widgets/default_text.dart';
+import 'package:kettering_esports_overlays_controller/common_widgets/default_text.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart' as constants;
 

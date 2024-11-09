@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:falcons_esports_overlays_controller/common_widgets/color_selector.dart';
-import 'package:falcons_esports_overlays_controller/common_widgets/default_text.dart';
+import 'package:kettering_esports_overlays_controller/common_widgets/color_selector.dart';
+import 'package:kettering_esports_overlays_controller/common_widgets/default_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -229,7 +229,7 @@ class _ControlsPageState extends State<ControlsPage> {
       children: [
         Row(
           children: [
-            Text("Update Overlay",
+            Text("Hide Overlay Switchers",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
