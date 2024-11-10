@@ -12,13 +12,9 @@ This is a streaming overlay for esports teams with a nice gui app written in dar
 | Game Title                 | Overlay Status |
 | -------------------------- | :------------: |
 | Super Smash Bros. Ultimate |    Finished    |
-| Mario Kart 8 Deluxe        |    Finished    |
 | Overwatch                  |    Finished    |
 | Rocket League              |    Finished    |
-| Splatoon                   |  Not Started   |
 | Valorant                   |  In Progress   |
-| Hearthstone                |  Not Started   |
 | League of Legends          |  Not Started   |
-| Chess                      |  Not Started   |
-| Madden NFL                 |  Not Started   |
-| NBA 2K                     |  Not Started   |
+| Rainbow Six Seige          |  Not Started   |
+| Omega Strikers             |  Not Started   |
