@@ -410,13 +410,12 @@ class _ControlsPageState extends State<ControlsPage> {
             mainAxisSize: MainAxisSize.max,
             children: [
               if (showOverlays) ...[
-                if (constants.Constants.jsonHandler.readConfig("ssbuChecked"))
-                  buildOverlayButton('ssbu', 'images/SSBU.png'),
-                if (constants.Constants.jsonHandler.readConfig("rlChecked"))
-                  buildOverlayButton('rocketLeague', 'images/RL.png'),
-                if (constants.Constants.jsonHandler
-                    .readConfig("strikersChecked"))
-                  buildOverlayButton("strikers", 'images/Strikers.png')
+                if (constants.Constants.jsonHandler.readConfig("owChecked"))
+                  buildOverlayButton('overwatch', 'images/Overwatch.png'),
+                if (constants.Constants.jsonHandler.readConfig("valChecked"))
+                  buildOverlayButton('val', 'images/VAL.png'),
+                if (constants.Constants.jsonHandler.readConfig("seigeChecked"))
+                  buildOverlayButton("seige", 'images/Seige.png')
               ],
             ],
           ),
@@ -425,14 +424,15 @@ class _ControlsPageState extends State<ControlsPage> {
             mainAxisSize: MainAxisSize.max,
             children: [
               if (showOverlays) ...[
-                if (constants.Constants.jsonHandler.readConfig("owChecked"))
-                  buildOverlayButton('overwatch', 'images/Overwatch.png'),
-                if (constants.Constants.jsonHandler.readConfig("valChecked"))
-                  buildOverlayButton('val', 'images/VAL.png'),
+                if (constants.Constants.jsonHandler.readConfig("ssbuChecked"))
+                  buildOverlayButton('ssbu', 'images/SSBU.png'),
+                if (constants.Constants.jsonHandler.readConfig("rlChecked"))
+                  buildOverlayButton('rocketLeague', 'images/RL.png'),
                 if (constants.Constants.jsonHandler.readConfig("lolChecked"))
                   buildOverlayButton('lol', 'images/LOL.png'),
-                if (constants.Constants.jsonHandler.readConfig("seigeChecked"))
-                  buildOverlayButton("seige", 'images/Seige.png')
+                if (constants.Constants.jsonHandler
+                    .readConfig("strikersChecked"))
+                  buildOverlayButton("strikers", 'images/Strikers.png')
               ],
             ],
           ),

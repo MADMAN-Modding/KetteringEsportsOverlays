@@ -186,12 +186,14 @@ class _ControlsPage extends State<ConfigPage> {
                     Column(
                       children: [
                         DefaultText.text("Choose your school sports!"),
+                        checkBoxMaker("Overwatch", "owChecked"),
+                        checkBoxMaker("Valorant", "valChecked"),
+                        checkBoxMaker("Rainbow Six Seige", "seigeChecked"),
                         checkBoxMaker(
                             "Super Smash Bros. Ultimate", "ssbuChecked"),
-                        checkBoxMaker("Overwatch", "owChecked"),
                         checkBoxMaker("Rocket League", "rlChecked"),
-                        checkBoxMaker("Valorant", "valChecked"),
                         checkBoxMaker("League of Legends", "lolChecked"),
+                        checkBoxMaker("Omega Strikers", "strikersChecked"),
                       ],
                     )
                   ],
