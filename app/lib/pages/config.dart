@@ -188,16 +188,10 @@ class _ControlsPage extends State<ConfigPage> {
                         DefaultText.text("Choose your school sports!"),
                         checkBoxMaker(
                             "Super Smash Bros. Ultimate", "ssbuChecked"),
-                        checkBoxMaker("Mario Kart", "kartChecked"),
                         checkBoxMaker("Overwatch", "owChecked"),
                         checkBoxMaker("Rocket League", "rlChecked"),
-                        checkBoxMaker("Splatoon", "splatChecked"),
                         checkBoxMaker("Valorant", "valChecked"),
-                        checkBoxMaker("Hearth Stone", "hearthChecked"),
                         checkBoxMaker("League of Legends", "lolChecked"),
-                        checkBoxMaker("Chess", "chessChecked"),
-                        checkBoxMaker("Madden", "maddenChecked"),
-                        checkBoxMaker("NBA 2K", "nba2KChecked")
                       ],
                     )
                   ],

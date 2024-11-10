@@ -55,7 +55,7 @@ class JSONHandler {
     "valChecked": true,
     "lolChecked": true,
     "seigeChecked": true,
-    "omegaChecked": true
+    "strikersChecked": true
 }
 ''').whenComplete(() => configJSON = File(
                         // Reads the json when its done being generated
@@ -192,9 +192,9 @@ class JSONHandler {
     "teamNameRight": "That other team",
     "winsLeft": "0",
     "winsRight": "0",
-    "teamColorLeft": "#BE0F32",
+    "teamColorLeft": "#F8BE13",
     "teamColorRight": "#0120AC",
-    "overlay": "kart",
+    "overlay": "ssbu",
     "week": "0",
     "scoreLeft": "0",
     "scoreRight": "0",

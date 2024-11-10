@@ -111,8 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   selectedIndex = value;
                 });
               },
-              selectedIconTheme: IconThemeData(color: HexColor("#f8be13")),
-              backgroundColor: HexColor("#f8be13"),
+              selectedIconTheme: IconThemeData(color: HexColor("#F8BE13")),
+              backgroundColor: HexColor("#F8BE13"),
               indicatorColor: HexColor(
                   constants.Constants.jsonHandler.readConfig("appTheme")),
               // Tells the app when to minimize the side bar
