@@ -50,16 +50,12 @@ class JSONHandler {
 {
     "appTheme": "#0B223F",
     "ssbuChecked": true,
-    "kartChecked": true,
     "owChecked": true,
     "rlChecked": true,
-    "splatChecked": true,
     "valChecked": true,
-    "hearthChecked": true,
     "lolChecked": true,
-    "chessChecked": true,
-    "maddenChecked": true,
-    "nba2KChecked": true
+    "seigeChecked": true,
+    "omegaChecked": true
 }
 ''').whenComplete(() => configJSON = File(
                         // Reads the json when its done being generated
