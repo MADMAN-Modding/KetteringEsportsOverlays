@@ -2,7 +2,7 @@
 const invoke = window.__TAURI__.core.invoke;
 
 /** Global access to the array of overlays */
-let overlays = ["ssbu", "kart", "overwatch", "rocketLeague", "splat", "val", "hearth", "lol", "chess", "madden", "nba2K"];
+let overlays = ["ssbu", "kart", "overwatch", "rocketLeague", "val", "lol", "siege", "strikers"];
 
 /** Map of the sport titles */ 
 let nameMap = {
@@ -10,13 +10,9 @@ let nameMap = {
     "kart"         : "Mario Kart 8 Deluxe",
     "overwatch"    : "Overwatch",
     "rocketLeague" : "Rocket League",
-    "splat"        : "Splatoon",
     "val"          : "Valorant",
-    "hearth"       : "Hearth Stone",
-    "lol"          : "League of Legends",
-    "chess"        : "Chess",
-    "madden"       : "Madden",
-    "nba2K"        : "NBA 2K"
+    "siege"        : "Rainbow 6 Siege",
+    "strikers"     : "Omega Strikers"
 };
 
 /**

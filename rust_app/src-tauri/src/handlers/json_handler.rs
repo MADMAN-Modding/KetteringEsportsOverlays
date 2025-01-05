@@ -6,12 +6,12 @@ use serde_json::{json, Value};
 use crate::constants;
 
 /// Reads the overlay json and returns the value of the requested key
-/// 
+///
 /// # Arguments
 /// * `key: &str` - The key to be read from the json file
-/// 
+///
 /// # Returns
-/// * `String` - The data at the desired key 
+/// * `String` - The data at the desired key
 #[tauri::command]
 pub fn read_overlay_json(key: &str) -> String {
     let json_data: Value = open_json(constants::get_overlay_json_path());
@@ -20,24 +20,24 @@ pub fn read_overlay_json(key: &str) -> String {
 }
 
 /// Reads the config json and returns the value of the requested key
-/// 
+///
 /// # Arguments
 /// * `key: &str` - The key to be read from the json file
-/// 
+///
 /// # Returns
-/// * `String` - The data at the desired key 
+/// * `String` - The data at the desired key
 #[tauri::command]
 pub fn read_config_json(key: &str) -> String {
     let json_data: Value = open_json(constants::get_config_json_path());
-    
+
     json_data[key].to_string()
 }
 
 /// Opens the json file with the supplied path
-/// 
+///
 /// # Arguments
 /// * `path: String` - The path to the JSON file to read
-/// 
+///
 /// # Returns
 /// * `Value` - Contains the JSON data
 fn open_json(path: String) -> Value {
@@ -58,12 +58,12 @@ fn open_json(path: String) -> Value {
 }
 
 /// This function is called if the JSON being read doesn't exist
-/// 
+///
 /// It after making the file it will try to read the file and then return that value
-/// 
+///
 /// # Arguments
 /// * `path: String` - The path to the JSON file to read
-/// 
+///
 /// # Returns
 /// * `Value` - Contains the JSON data
 pub fn init_json(path: String) -> Value {
@@ -90,18 +90,15 @@ pub fn init_json(path: String) -> Value {
         });
     } else {
         json_data = json!({
-            "appTheme": "#0B223F",
-            "ssbuChecked": true,
-            "kartChecked": true,
-            "overwatchChecked": true,
-            "rocketLeagueChecked": true,
-            "splatChecked": true,
-            "valChecked": true,
-            "hearthChecked": true,
-            "lolChecked": true,
-            "chessChecked": true,
-            "maddenChecked": true,
-            "nba2KChecked": true
+            "appTheme"		        : "#0B223F",
+            "ssbuChecked"		    : true,
+            "kartChecked"		    : true,
+            "overwatchChecked"		: true,
+            "rocketLeagueChecked"   : true,
+            "valChecked"            : true,
+            "lolChecked"            : true,
+            "siegeChecked"    		: true,
+            "strikersChecked" 		: true,
         })
     }
 
@@ -120,12 +117,12 @@ pub fn init_json(path: String) -> Value {
 }
 
 /// Writes to the JSON file at the supplied path
-/// 
+///
 /// # Arguments
 /// * `path: String` - Path to the JSON file
 /// * `json_key: String` - Key to write to
 /// * `value: String` ` Value to write to the key`
-/// 
+///
 /// # Examples
 /// ```ignore
 /// write_json("random_path/overlay.json", "overlay", "kart");
@@ -156,7 +153,7 @@ pub fn write_json(path: String, json_key: String, value: String) {
 }
 
 /// Literally just is a compact version of checking if path exists which probably is worse than just making Path objects but whatever
-/// 
+///
 /// # Arguments
 /// * `path: &Path` - Path object for the JSON file
 pub fn check_json_exists(path: &Path) -> bool {
