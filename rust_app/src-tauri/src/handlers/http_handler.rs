@@ -1,27 +1,40 @@
+//! Handles the HTTP server for the overlays
 use std::{
-    fs, io::{prelude::*, BufReader}, net::{TcpListener, TcpStream}, path::Path, sync::{Arc, Mutex}, thread::{self}
+    fs,
+    io::{prelude::*, BufReader},
+    net::{TcpListener, TcpStream},
+    path::Path,
+    sync::{Arc, Mutex},
+    thread::{self},
 };
 
 use once_cell::sync::OnceCell;
-use tokio::stream;
 
 use crate::constants::get_code_dir;
 
 // Adds necessary traits to the ThreadData structure
 #[derive(Clone, Copy, Debug)]
+
+/// Used for sharing data between the `http_server` thread and the thread the app is running on
 struct ThreadData {
+    /// `stop` - For telling the thread to stop itself
     stop: bool,
 }
 
 static THREAD_DATA: OnceCell<Arc<Mutex<ThreadData>>> = OnceCell::new();
 
-// Sets the THREAD_DATA variable to a new ThreadData struct
+/// Sets the `THREAD_DATA` variable to a new `ThreadData` struct
 pub fn setup() {
     THREAD_DATA
         .set(Arc::new(Mutex::new(ThreadData::setup())))
         .unwrap();
 }
 
+/// Starts a thread for the HTTP server called `http_server`
+/// 
+/// # Returns
+/// * `Ok(String)` - Message to be pushed to the frontend on success
+/// * `Err(String` - Message to pushed to the frontend on error
 #[tauri::command]
 pub fn run_server() -> Result<String, String> {
     // Gets the THREAD_DATA struct
@@ -43,25 +56,45 @@ pub fn run_server() -> Result<String, String> {
     }
 }
 
+/// Stops the `http_server` thread by getting the `THREAD_DATA`
+/// 
+/// It will update the value on the shared `struct`
+/// 
+/// Then it will connect to the server and write `SHUTDOWN` to it
+/// 
+/// The message content doesn't matter but I figured I'd make it logical
+/// 
+/// # Returns
+/// * `Ok(String)` - Message to be pushed to the frontend on success
+/// * `Err(String)` - Message to be pushed to the frontend on error
 #[tauri::command]
-// Stops the http server by getting the THREAD_Data and updating the struct data
 pub fn stop_server() -> Result<String, String> {
     if let Some(thread_data) = THREAD_DATA.get() {
         let mut data = thread_data.lock().unwrap();
         data.set_stop(true);
 
         // Connects to the server and writes it so that it reads the stop variable
-        let mut stream = TcpStream::connect("127.0.0.1:8080").unwrap();
-        stream.write("SHUTDOWN".as_bytes()).unwrap();
-        
-        Ok("Server Stopped".to_string())
+        let stream = TcpStream::connect("127.0.0.1:8080");
+
+        match stream {
+            Ok(mut stream) => {
+                stream.write("SHUTDOWN".as_bytes()).unwrap();
+
+                Ok("Server Stopped".to_string())
+            }
+            Err(error) => Err(format!("Has the server been started? {}", error)),
+        }
     } else {
         Err("Failed to stop the server: THREAD_DATA not initialized".to_string())
     }
 }
 
-// Handles the incoming server traffic to either send it to the request processor or exit this cycle of the loop
 impl ThreadData {
+/// Handles the incoming server traffic to either send it to the request processor or exit this cycle of the loop
+/// 
+/// # Arguments
+/// * `listener: TcpListener` - listener from binding the TCP address & port
+/// * `thread_data: Arc<Mutex<Self>>` - The variable storing the shared data
     fn handle_connection(listener: TcpListener, thread_data: Arc<Mutex<Self>>) {
         for stream in listener.incoming() {
             // If the stop variable is true stop the thread
@@ -84,22 +117,28 @@ impl ThreadData {
         }
     }
 
+    /// Returns `ThreadData { stop: false}` so the server doesn't stop on start
     fn setup() -> ThreadData {
         Self { stop: false }
     }
 
-    // Getter
+    /// Getter function for `stop`
     fn get_stop(&self) -> bool {
         self.stop
     }
 
-    // Accessor
+    /// Accessor for changing `stop`
     fn set_stop(&mut self, stop_value: bool) {
         self.stop = stop_value;
     }
 }
 
-
+/// * Gives the client the request data as bytes
+/// * It will take care of any errors with the incoming request being invalid or if the client disconnects mid request
+/// * Filters out `?` from requests
+/// * Sends `404.html` if it can't find the requested resource
+/// # Arguments
+/// * `mut stream: TcpSteam` - The incoming stream of data requested by the client 
 fn process_request(mut stream: TcpStream) {
     let buf_reader = BufReader::new(&stream).lines().next();
 
@@ -109,9 +148,6 @@ fn process_request(mut stream: TcpStream) {
     } else {
         return;
     };
-
-    // Print what is being requested
-    // println!("{}", request_line);
 
     let mut file = request_line.to_string();
 
@@ -146,6 +182,13 @@ fn process_request(mut stream: TcpStream) {
 
     // Format the data and write the header
     let header = format!("{status_line}\r\nContent-Length: {length}\r\n\r\n");
-    stream.write_all(header.as_bytes()).unwrap();
-    stream.write_all(&contents).unwrap();
+    // Ensures the writes are successful
+    let header_write = stream.write_all(header.as_bytes());
+    if header_write.is_ok() {
+        header_write.unwrap();
+    }
+    let content_write = stream.write_all(&contents);
+    if content_write.is_ok() {
+        content_write.unwrap();
+    }
 }

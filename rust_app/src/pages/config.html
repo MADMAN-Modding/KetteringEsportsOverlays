@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Config</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/bootstrap.js"></script>
+
+    <link href="../css/config.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row config-row">
+        <div class="col-3"></div>
+        <!-- Appearance Column -->
+        <div class="appearance-column col-3">
+            <div class="app-logo">
+                <div id="top-column">
+                    <h2 style="text-align: center;">Appearance</h2>
+                    <center>
+                        <img id="esportsLogo" class="img-fluid">
+                    </center>
+                </div>
+                <div id="bottom-column">
+                    <p style="text-align: center;">Set a logo for your team:</p>
+                    <input type="file" onchange="updateImage()" id="newLogo" name="newLogo" accept="image/png" />
+                </div>
+            </div>
+            <div id="appColor">
+                <label>App Color</label>
+                <input class="color" type="color" onchange="getColor()" id="appColorInput" value="#0B223F">
+            </div>
+        </div>
+        <div class="col-3">
+            <!-- Enabled Sports Column -->
+            <div class="enabled-sports-column col-3">
+                <div id="checkBoxes">
+                    <h2>Enabled Sports</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</body>
+
+</html>

@@ -1,16 +1,45 @@
+//! This module is used for read and writing the json data used for the overlays and the app
 use std::{fs, path::Path};
 
 use serde_json::{json, Value};
 
 use crate::constants;
 
+/// Reads the overlay json and returns the value of the requested key
+/// 
+/// # Arguments
+/// * `key: &str` - The key to be read from the json file
+/// 
+/// # Returns
+/// * `String` - The data at the desired key 
 #[tauri::command]
-pub fn read_overlay_json(key : &str) -> String {
+pub fn read_overlay_json(key: &str) -> String {
     let json_data: Value = open_json(constants::get_overlay_json_path());
 
     json_data[key].to_string()
 }
 
+/// Reads the config json and returns the value of the requested key
+/// 
+/// # Arguments
+/// * `key: &str` - The key to be read from the json file
+/// 
+/// # Returns
+/// * `String` - The data at the desired key 
+#[tauri::command]
+pub fn read_config_json(key: &str) -> String {
+    let json_data: Value = open_json(constants::get_config_json_path());
+    
+    json_data[key].to_string()
+}
+
+/// Opens the json file with the supplied path
+/// 
+/// # Arguments
+/// * `path: String` - The path to the JSON file to read
+/// 
+/// # Returns
+/// * `Value` - Contains the JSON data
 fn open_json(path: String) -> Value {
     let json_data: Value;
 
@@ -24,22 +53,29 @@ fn open_json(path: String) -> Value {
         json_data = init_json(path);
     }
 
-    // Prints the entire JSON, mainly for debugging 
-    // println!("{:?}", serde_json::to_string_pretty(&json_data).expect("Error parsing to JSON"));
-
     // Returns the json data
     json_data
 }
 
+/// This function is called if the JSON being read doesn't exist
+/// 
+/// It after making the file it will try to read the file and then return that value
+/// 
+/// # Arguments
+/// * `path: String` - The path to the JSON file to read
+/// 
+/// # Returns
+/// * `Value` - Contains the JSON data
 pub fn init_json(path: String) -> Value {
     // Creating the directories
     let _ = std::fs::create_dir_all(Path::new(&path).parent().unwrap());
 
+    // Initializes the json_data variable
     let json_data: Value;
 
     if path.contains("overlay.json") {
         json_data = json!({
-            "teamNameLeft": "DC Kettering Red",
+            "teamNameLeft": "Kettering Blue",
             "teamNameRight": "That other team",
             "winsLeft": "0",
             "winsRight": "0",
@@ -54,11 +90,11 @@ pub fn init_json(path: String) -> Value {
         });
     } else {
         json_data = json!({
-            "appTheme": "#bf0f35",
+            "appTheme": "#0B223F",
             "ssbuChecked": true,
             "kartChecked": true,
-            "owChecked": true,
-            "rlChecked": true,
+            "overwatchChecked": true,
+            "rocketLeagueChecked": true,
             "splatChecked": true,
             "valChecked": true,
             "hearthChecked": true,
@@ -70,29 +106,59 @@ pub fn init_json(path: String) -> Value {
     }
 
     // Creating the JSON file
-    fs::write(&path, serde_json::to_string_pretty(&json_data).expect("Error 
-    serializing to JSON")).expect("Error writing file");
+    fs::write(
+        &path,
+        serde_json::to_string_pretty(&json_data).expect(
+            "Error 
+    serializing to JSON",
+        ),
+    )
+    .expect("Error writing file");
 
-     
     // Trying to open the JSON again
     open_json(path)
 }
 
-/**
- * path: Location of json file
- * json_key: Key to update in the json
- * value: Value to update key to
- */
+/// Writes to the JSON file at the supplied path
+/// 
+/// # Arguments
+/// * `path: String` - Path to the JSON file
+/// * `json_key: String` - Key to write to
+/// * `value: String` ` Value to write to the key`
+/// 
+/// # Examples
+/// ```ignore
+/// write_json("random_path/overlay.json", "overlay", "kart");
+/// ```
 #[tauri::command]
 pub fn write_json(path: String, json_key: String, value: String) {
     // Cloning the data because a borrow won't work in this case
     let mut json_data = open_json(path.clone());
 
-    json_data[json_key] = serde_json::Value::String(value);
+    // Writes a bool if the json_key is a checked value which must be a bool
+    if json_key.contains("Checked") {
+        let bool_value = match value.to_lowercase().as_str() {
+            "true" => true,
+            "false" => false,
+            _ => false,
+        };
 
-    fs::write(path, serde_json::to_string_pretty(&json_data).expect("Error serializing to JSON")).expect("Error writing file");
+        json_data[json_key] = serde_json::Value::Bool(bool_value);
+    } else {
+        json_data[json_key] = serde_json::Value::String(value);
+    }
+
+    fs::write(
+        path,
+        serde_json::to_string_pretty(&json_data).expect("Error serializing to JSON"),
+    )
+    .expect("Error writing file");
 }
 
+/// Literally just is a compact version of checking if path exists which probably is worse than just making Path objects but whatever
+/// 
+/// # Arguments
+/// * `path: &Path` - Path object for the JSON file
 pub fn check_json_exists(path: &Path) -> bool {
     path.exists()
 }
