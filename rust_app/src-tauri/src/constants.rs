@@ -5,7 +5,7 @@ static PROJ_DIRS: OnceCell<ProjectDirs> = OnceCell::new();
 
 pub fn setup() {
     PROJ_DIRS.set(
-        ProjectDirs::from("com", "MADMAN-Modding", "Falcons Esports Overlays Controller")
+        ProjectDirs::from("com", "MADMAN-Modding", "Kettering Esports Overlays Controller")
             .expect("Failed to create ProjectDirs"),
     )
     .unwrap();
@@ -24,7 +24,7 @@ pub fn get_config_dir() -> String {
 }
 
 pub fn get_code_dir() -> String {
-    format!("{}/FalconsEsportsOverlays-main", get_config_dir())
+    format!("{}/KetteringEsportsOverlays-main", get_config_dir())
 }
 
 #[tauri::command]

@@ -39,11 +39,11 @@ pub fn init_json(path: String) -> Value {
 
     if path.contains("overlay.json") {
         json_data = json!({
-            "teamNameLeft": "DC Falcons Red",
+            "teamNameLeft": "DC Kettering Red",
             "teamNameRight": "That other team",
             "winsLeft": "0",
             "winsRight": "0",
-            "teamColorLeft": "#BE0F32",
+            "teamColorLeft": "#0B223F",
             "teamColorRight": "#0120AC",
             "overlay": "kart",
             "week": "0",

@@ -20,7 +20,7 @@ fn download_files() -> Result<[String; 2], Box<dyn Error>> {
     let filename: &str = "overlays.zip";
     let directory: &str = &constants::get_config_dir();
     let url: &str =
-        "https://codeload.github.com/MADMAN-Modding/FalconsEsportsOverlays/zip/refs/heads/main";
+        "https://codeload.github.com/MADMAN-Modding/KetteringEsportsOverlays/zip/refs/heads/main";
 
     // Download stuff
     let path = Path::new(directory).join(filename);
@@ -77,7 +77,7 @@ fn extract_files(file_path: &str, output_dir: &str) -> io::Result<()> {
 fn setup_config_dir(config_dir: String) -> Result<(), std::io::Error> {
     let logo = format!(
         "{}{}",
-        &config_dir, "/FalconsEsportsOverlays-main/images/Esports-Logo.png"
+        &config_dir, "/KetteringEsportsOverlays-main/images/Esports-Logo.png"
     );
 
     if let Err(e) = fs::copy(logo, format!("{}{}", &config_dir, "/Esports-Logo.png")) {
@@ -88,7 +88,7 @@ fn setup_config_dir(config_dir: String) -> Result<(), std::io::Error> {
 
     let overlay_config = format!(
         "{}{}",
-        &config_dir, "/FalconsEsportsOverlays-main/json/overlay.json"
+        &config_dir, "/KetteringEsportsOverlays-main/json/overlay.json"
     );
 
     if let Err(e) = fs::copy(format!("{}/overlay.json", get_config_dir()), overlay_config) {
