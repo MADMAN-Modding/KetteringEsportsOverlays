@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    kettering_esports_overlays_controller_lib::run()
+    falcons_esports_overlays_controller_lib::run()
 }

@@ -62,20 +62,20 @@ setInterval(function () {
       changeBackgroundColor("awayScore", teamColorRight);
 
       if (jsonData["playerNamesLeft"].length >= 24) {
-        document.getElementById("playerNamesLeft").style.top = "500px";
+        document.getElementById("playerNamesLeft").style.top = "503px";
       } else {
         document.getElementById("playerNamesLeft").style.top = "509px";
       }
 
-      if (jsonData["playerNamesRight"].length >= 24) {
-        document.getElementById("playerNamesRight").style.top = "537px";
+      if (jsonData["playerNamesRight"].length <= 23) {
+        document.getElementById("playerNamesRight").style.top = "536px";
       } else {
-        document.getElementById("playerNamesLeft").style.top = "1098px";
+        document.getElementById("playerNamesRight").style.top = "530px";
       }
     });
 
   i = Math.floor(Math.random() * 1000000);
-}, 100);
+}, 2000);
 
 function changeBackgroundColor(id, color) {
   document.getElementById(id).style.backgroundColor = color;
